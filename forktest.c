@@ -17,7 +17,7 @@ int main(){
   {
      printf("child process: my pid = %d\n", getpid());
      printf("child process: my parent pid = %d\n", getppid());
-	 printf("hello world \n");
+	 printf("hello pvamu cs! \n");
      return 0;
   }
 
