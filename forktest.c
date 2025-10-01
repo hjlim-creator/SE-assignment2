@@ -26,7 +26,8 @@ int main(){
   else     // pid > 0,  parent process
   {
      printf("parent process: my pid = %d\n", getpid());
-	      printf("parent process: my child pid = %d\n", pid);
+	 printf("parent process: my child pid = %d\n", pid);
+     printf("Hi Mary Kim \n");
      wait(NULL);
      return 0;
   }
