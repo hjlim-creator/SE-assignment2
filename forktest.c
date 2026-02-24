@@ -13,7 +13,7 @@ int main(){
      printf("Error: Creating process failed \n");
   }
 
-  else if (pid == 0)     //child process
+  else if (pid == 0)     //child process default pid value is zero
   {
      printf("child process: my pid = %d\n", getpid());
      printf("child process: my parent pid = %d\n", getppid());
